@@ -19,6 +19,7 @@ const CarItem = (props) => {
         <Text style={styles.title}>{name}</Text>
         <Text style={styles.subtitle}>
             {tagline}
+            {' '}
             <Text style={styles.subtitleCTA}>
               {taglineCTA}
             </Text>
